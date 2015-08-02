@@ -1,0 +1,973 @@
+/*
+*
+Count & close
+tags
+accordion
+ribbon
+meter bar
+information spot
+flipped
+Loaders
+progeress slider
+version & history
+*/
+
+
+/********************************************************/
+/*                 12. Generic elements                 */
+/********************************************************/
+
+/* #################### Count & close  #################### */
+.count,.close {
+    position: absolute;
+    z-index: 88;
+    top: 0;
+    padding: 0 2px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: bold;
+    height: 16px;
+    min-width: 12px;
+    text-align: center;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 3px
+    rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 3px
+    rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 3px
+    rgba(0, 0, 0, 0.75);
+    -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.count.simpler,.close.simpler {
+    border-color: #808080;
+    background: #808080;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    text-shadow: none;
+}
+
+.count {
+    right: 6%;
+    margin: -10px 0 0 0;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.count.right,.count.inset,.close {
+    right: 0;
+    margin: -10px -10px 0 0;
+}
+
+.count.left,.close.left {
+    right: auto;
+    left: 0;
+    margin: -10px 0 0 -10px;
+}
+
+.count.inset,.close.inset {
+    margin: 4px 4px 0 0;
+}
+
+.count.left.inset,.close.left.inset {
+    margin: 4px 0 0 4px;
+}
+
+#access>li>.count,#access>li>a>.count {
+    right: 50%;
+    margin: 10px -25px 0 0;
+}
+
+#access>li>a>.count {
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+}
+
+#access>li>a:hover>.count {
+    margin-top: 6px;
+}
+
+/* ########################  Tags ########################  */
+.tag {
+    padding: 0 4px 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ie9 .tag {
+    padding: 1px 4px;
+}
+
+small.tag {
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    padding: 0 2px;
+    vertical-align: 1px;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* ####################  Accordions  #################### */
+.accordion {
+    border: 1px solid #bfbfbf;
+    position: relative;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.accordion>dt {
+    display: block;
+    position: relative;
+    padding: 10px 11px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 1px
+    rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 1px
+    rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 1px
+    rgba(0, 0, 0, 0.15);
+}
+
+.accordion>dt:first-child {
+    border-top-width: 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.accordion>dt.closed {
+    margin-bottom: -1px;
+}
+
+.accordion>dt.closed:last-of-type {
+    border-bottom-width: 0;
+    margin-bottom: 0;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* ####################  Ribbon, #################### */
+/* from Chris Coyer CSS Tricks : http://css-tricks.com/snippets/css/corner-ribbon */
+.ribbon {
+    display: block;
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 88;
+    top: -5px;
+    right: -5px;
+}
+
+.no-csstransforms .ribbon {
+    width: 70px;
+    height: 46px;
+}
+
+.ribbon.tiny {
+    width: 43px;
+    height: 44px;
+    top: -4px;
+    right: -4px;
+}
+
+.no-csstransforms .ribbon.tiny {
+    width: 40px;
+    height: 23px;
+}
+
+.ribbon-inner {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: relative;
+    padding: 7px 0;
+    left: -7px;
+    top: 17px;
+    width: 120px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    -webkit-text-shadow: rgba(0, 0, 0, 0.25) 0 1px 1px;
+    -moz-text-shadow: rgba(0, 0, 0, 0.25) 0 1px 1px;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 1px 1px;
+}
+
+.no-csstransforms .ribbon-inner {
+    left: -25px;
+}
+
+.tiny>.ribbon-inner {
+    font-size: 10px;
+    line-height: 10px;
+    padding: 3px 0;
+    left: -2px;
+    top: 7px;
+    width: 60px;
+}
+
+.no-csstransforms .tiny>.ribbon-inner {
+    left: -9px;
+}
+
+.ribbon-inner:before,.ribbon-inner:after {
+    content: '';
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid;
+    border-top-color: inherit;
+    position: absolute;
+    bottom: -3px;
+}
+
+.tiny>.ribbon-inner:before,.tiny>.ribbon-inner:after {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    bottom: -2px;
+}
+
+.ribbon-inner:before {
+    left: 1px;
+}
+
+.ribbon-inner:after {
+    right: 1px;
+}
+
+/* ####################  Meter bars ####################  */
+.meter {
+    display: inline-block;
+    height: 11px;
+    line-height: 11px;
+    width: 4px;
+    margin-left: -2px;
+    *margin-left: 2px;
+    *vertical-align: middle;
+    background: #999999 url(../../img/standard/old-browsers/style/bg_meter.png) repeat-x;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#808080),
+    to(#999999));
+    background: -webkit-linear-gradient(top, #808080, #999999);
+    background: -moz-linear-gradient(top, #808080, #999999);
+    background: -ms-linear-gradient(top, #808080, #999999);
+    background: -o-linear-gradient(top, #808080, #999999);
+    background: linear-gradient(top, #808080, #999999);
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.75), 0 1px 0
+    rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.75), 0 1px 0
+    rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.75), 0 1px 0
+    rgba(255, 255, 255, 0.25);
+}
+
+/* ####################  Information spot  #################### */
+.info-spot {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: normal;
+    vertical-align: middle;
+    *vertical-align: baseline;
+    position: relative;
+    margin: -1px 0 1px;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    text-shadow: none;
+    cursor: help;
+}
+
+.info-spot>[class^="icon-"],.info-spot>[class*=" icon-"] {
+    position: absolute;
+    font-size: 17px;
+    top: 0;
+    left: 0;
+}
+
+.info-spot:hover>[class^="icon-"],.info-spot:hover>[class*=" icon-"] {
+    color: white;
+    z-index: 99;
+}
+
+.info-bubble {
+    display: none;
+    position: absolute;
+    z-index: 98;
+    top: -5px;
+    left: 15px;
+    min-width: 100px;
+    padding: 8px 11px;
+    background: #4c4c4c;
+    color: white;
+    text-align: left;
+    -webkit-border-radius: 5px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius: 0 5px 5px 5px;
+    border-radius: 0 5px 5px 5px;
+}
+
+.info-spot:hover>.info-bubble {
+    display: block;
+}
+
+.info-bubble:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    height: 26px;
+    width: 21px;
+    background-color: inherit;
+    -webkit-border-top-left-radius: 13px;
+    -webkit-border-bottom-left-radius: 13px;
+    -moz-border-radius: 13px 0 0 13px;
+    border-radius: 13px 0 0 13px;
+}
+/* IE7 */
+.info-bubble-before {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    height: 26px;
+    width: 21px; //
+background-color: expression(this.parentNode.currentStyle [   'background-color' ]);
+    }
+
+/* ####################  Flipped  #################### */
+.on-top>.info-bubble {
+    top: auto;
+    bottom: -5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius: 5px 5px 5px 0;
+    border-radius: 5px 5px 5px 0;
+}
+
+.on-top>.info-bubble:before {
+    top: auto;
+    bottom: 0;
+}
+/* IE7 */
+.on-top>.info-bubble>.info-bubble-before {
+    top: auto;
+    bottom: 0;
+}
+
+.on-left>.info-bubble {
+    left: auto;
+    right: 15px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius: 5px 0 5px 5px;
+    border-radius: 5px 0 5px 5px;
+}
+
+.on-left>.info-bubble:before {
+    right: auto;
+    left: 100%;
+    -webkit-border-radius: 0;
+    -webkit-border-top-right-radius: 13px;
+    -webkit-border-bottom-right-radius: 13px;
+    -moz-border-radius: 0 13px 13px 0;
+    border-radius: 0 13px 13px 0;
+}
+/* IE7 */
+.on-left>.info-bubble>.info-bubble-before {
+    right: auto;
+    left: 100%;
+}
+
+.on-top.on-left>.info-bubble {
+    left: auto;
+    right: 15px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius: 5px 5px 0 5px;
+    border-radius: 5px 5px 0 5px;
+}
+/* IE7 */
+.on-top.on-left>.info-bubble>.info-bubble-before {
+    left: auto;
+    right: 15px;
+}
+
+/* Touch screen do not handle hover correctly, the text is shown on an modal */
+.js.touch .info-spot:hover>[class^="icon-"],.js.touch .info-spot:hover>[class*=" icon-"]
+{
+    color: inherit;
+}
+
+.js.touch .info-spot:hover>.info-bubble {
+    display: none;
+}
+
+
+/********************************************************/
+/*                      18. Loaders                     */
+/********************************************************/
+
+
+.loader {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background: url(../../img/standard/loaders/loading16.gif) no-repeat center
+    center;
+    margin-top: -1px;
+    margin-bottom: 1px;
+}
+
+.input .loader:first-child {
+    margin-left: -1px;
+}
+
+.input .loader:last-child {
+    margin-right: -1px;
+}
+/* IE7 */
+.input .loader.last-child {
+    margin-right: -1px;
+}
+
+.loader.waiting {
+    background-image: url(../../img/standard/loaders/waiting16.gif);
+}
+
+.loader.working {
+    background-image: url(../../img/standard/loaders/working16.gif);
+}
+
+.loader.refreshing {
+    background-image: url(../../img/standard/loaders/refreshing16.gif);
+}
+
+.loader.on-dark {
+    background-image: url(../../img/standard/loaders/loading16_anthracite.gif);
+}
+
+.loader.waiting.on-dark {
+    background-image: url(../../img/standard/loaders/waiting16_anthracite.gif);
+}
+
+.loader.working.on-dark {
+    background-image: url(../../img/standard/loaders/working16_anthracite.gif);
+}
+
+.loader.refreshing.on-dark {
+    background-image:
+        url(../../img/standard/loaders/refreshing16_anthracite.gif);
+}
+
+.loader.big {
+    background-image: url(../../img/standard/loaders/loading32.gif);
+    width: 32px;
+    height: 32px;
+}
+
+.loader.big.waiting {
+    background-image: url(../../img/standard/loaders/waiting32.gif);
+}
+
+.loader.big.working {
+    background-image: url(../../img/standard/loaders/working32.gif);
+}
+
+.loader.big.refreshing {
+    background-image: url(../../img/standard/loaders/refreshing32.gif);
+}
+
+.loader.big.on-dark {
+    background-image: url(../../img/standard/loaders/loading32_anthracite.gif);
+}
+
+.loader.big.waiting.on-dark {
+    background-image: url(../../img/standard/loaders/waiting32_anthracite.gif);
+}
+
+.loader.big.working.on-dark {
+    background-image: url(../../img/standard/loaders/working32_anthracite.gif);
+}
+
+.loader.big.refreshing.on-dark {
+    background-image:
+        url(../../img/standard/loaders/refreshing32_anthracite.gif);
+}
+
+.loader.huge {
+    background-image: url(../../img/standard/loaders/loading64.gif);
+    width: 64px;
+    height: 64px;
+}
+
+.loader.huge.waiting {
+    background-image: url(../../img/standard/loaders/waiting64.gif);
+}
+
+.loader.huge.working {
+    background-image: url(../../img/standard/loaders/working64.gif);
+}
+
+.loader.huge.refreshing {
+    background-image: url(../../img/standard/loaders/refreshing64.gif);
+}
+
+.loader.huge.on-dark {
+    background-image: url(../../img/standard/loaders/loading64_anthracite.gif);
+}
+
+.loader.huge.waiting.on-dark {
+    background-image: url(../../img/standard/loaders/waiting64_anthracite.gif);
+}
+
+.loader.huge.working.on-dark {
+    background-image: url(../../img/standard/loaders/working64_anthracite.gif);
+}
+
+.loader.huge.refreshing.on-dark {
+    background-image:
+        url(../../img/standard/loaders/refreshing64_anthracite.gif);
+}
+
+
+/********************************************************/
+/*                      18. slider                     */
+/********************************************************/
+
+/* Base */
+.progress,
+.slider {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    position: relative;
+    padding: 0;
+    width: 100px;
+    vertical-align: middle;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35), 0 1px 1px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35), 0 1px 1px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35), 0 1px 1px rgba(255, 255, 255, 0.5);
+    margin-top: -1px;
+}
+.no-boxshadow .progress,
+.no-boxshadow .slider {
+    border-width: 1px;
+    border-style: solid;
+    width: 98px;
+}
+.black-inputs .progress, .progress.black-input,
+.black-inputs .slider, .slider.black-input {
+    -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.735), 0 1px 1px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.75), 0 1px 1px rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.75), 0 1px 1px rgba(255, 255, 255, 0.25);
+}
+.progress {
+    font-size: 11px;
+    line-height: 16px;
+    height: 16px;
+}
+.no-boxshadow .progress {
+    line-height: 14px;
+    height: 14px;
+}
+.slider {
+    line-height: 9px;
+    height: 9px;
+}
+.no-boxshadow .slider {
+    line-height: 7px;
+    height: 7px;
+}
+.progress.full-width,
+.slider.full-width {
+    width: 100%;
+}
+.progress.thin {
+    line-height: 9px;
+    height: 9px;
+}
+.no-boxshadow .progress.thin {
+    line-height: 7px;
+    height: 7px;
+}
+.progress.large {
+    line-height: 30px;
+    height: 30px;
+    font-size: 13px;
+}
+.no-boxshadow .progress.large {
+    line-height: 28px;
+    height: 28px;
+}
+
+/* Vertical style */
+.progress.vertical,
+.slider.vertical {
+    height: 100px;
+    margin: 0;
+}
+.no-boxshadow .progress.vertical,
+.no-boxshadow .slider.vertical {
+    height: 98px;
+}
+.progress.vertical {
+    width: 16px;
+}
+.no-boxshadow .progress.vertical {
+    width: 14px;
+}
+.progress.vertical.thin {
+    width: 9px;
+}
+.no-boxshadow .progress.vertical.thin {
+    width: 7px;
+}
+.progress.vertical.large {
+    width: 30px;
+}
+.no-boxshadow .progress.vertical.large {
+    width: 28px;
+}
+.slider.vertical {
+    width: 9px;
+}
+.no-boxshadow .slider.vertical {
+    width: 7px;
+}
+.progress.vertical.full-width,
+.slider.vertical.full-width {
+    height: auto;
+}
+
+/* Inner bar */
+.progress-bar,
+.slider-bar {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.no-boxshadow .progress-bar,
+.no-boxshadow .slider-bar {
+    margin: -1px;
+}
+.vertical > .progress-bar,
+.vertical > .slider-bar {
+    top: auto;
+    right: 0;
+}
+
+/* Text */
+.progress-text {
+    color: inherit;
+    font-size: inherit;
+    height: 16px;
+    line-height: 16px;
+    text-align: right;
+    padding: 0 5px;
+    display: block;
+    position: absolute;
+    left: -1px;
+    right: 0;
+    top: 50%;
+    margin: -8px 0;
+}
+.progress > .progress-text {
+    right: auto;
+    left: 0;
+}
+.vertical > .progress-text,
+.vertical > .progress-bar > .progress-text {
+    padding: 3px 0;
+    margin: 0;
+    text-align: center;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    font-size: 11px;
+}
+.vertical > .progress-bar > .progress-text {
+    bottom: -1px;
+}
+
+/* Cursor */
+.slider-cursor {
+    position: absolute;
+    display: block;
+    margin: -8px -4px;
+    top: 50%;
+    width: 9px;
+    height: 17px;
+    background: url(../../img/standard/sprites.png) no-repeat -40px 0;
+    cursor: pointer;
+}
+.touch .slider-cursor:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0 -15px;
+    background: transparent;
+}
+.vertical > .slider-cursor {
+    width: 17px;
+    height: 9px;
+    top: auto;
+    left: 50%;
+    margin: -4px -8px;
+    background-position: -40px -17px;
+}
+.slider-cursor.dragging {
+    z-index: 1000;
+}
+.slider-cursor.knob {
+    background-position: -49px 0;
+    width: 15px;
+    height: 15px;
+    margin: -7px;
+}
+
+/* Marks */
+.inner-mark,
+.top-mark,
+.bottom-mark {
+    position: absolute;
+    width: 1px;
+    margin-left: -1px;
+    pointer-events: none;
+    -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.25);
+}
+.inner-mark {
+    top: 1px;
+    bottom: 1px;
+    background: url(../../img/standard/old-browsers/grey20.png);
+    background: rgba(128, 128, 128, 0.2);
+}
+.vertical > .inner-mark,
+.left-mark,
+.right-mark {
+    position: absolute;
+    height: 1px;
+    width: auto;
+    margin: 0 0 -1px;
+    pointer-events: none;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.vertical > .inner-mark {
+    top: auto;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    height: 1px;
+}
+
+.top-mark,
+.right-mark,
+.bottom-mark,
+.left-mark {
+    background: url(../../img/standard/old-browsers/grey50.png);
+    background: rgba(128, 128, 128, 0.5);
+}
+.top-mark,
+.bottom-mark {
+    height: 5px;
+}
+.top-mark {
+    bottom: 100%;
+    margin-bottom: 3px;
+}
+.bottom-mark {
+    top: 100%;
+    margin-top: 3px;
+}
+.left-mark,
+.right-mark {
+    width: 5px;
+}
+.left-mark {
+    right: 100%;
+    margin-right: 3px;
+}
+.right-mark {
+    left: 100%;
+    margin-left: 3px;
+}
+
+.mark-label {
+    position: absolute;
+    color: #808080;
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+.top-mark > .mark-label,
+.bottom-mark > .mark-label {
+    text-align: center;
+    width: 80px;
+    left: -39px;
+}
+.top-mark > .mark-label {
+    bottom: 100%;
+    margin-bottom: 2px;
+}
+.bottom-mark > .mark-label {
+    top: 100%;
+    margin-top: 2px;
+}
+.mark-label.align-left {
+    text-align: right;
+    width: auto;
+    left: auto;
+    right: -1px;
+    white-space: nowrap;
+}
+.mark-label.align-right {
+    text-align: left;
+    width: auto;
+    left: -1px;
+    white-space: nowrap;
+}
+.left-mark > .mark-label {
+    text-align: right;
+    right: 100%;
+    margin-right: 2px;
+    top: -5px;
+    white-space: nowrap;
+}
+.right-mark > .mark-label {
+    text-align: left;
+    left: 100%;
+    margin-left: 2px;
+    top: -5px;
+    white-space: nowrap;
+}
+.mark-label.align-top {
+    top: -2px;
+}
+.mark-label.align-bottom {
+    top: auto;
+    bottom: -1px;
+}
+
+
+/* ################################################  */
+/* ############  Version history ##################  */
+/* ################################################  */
+.version-history {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.version-history>li {
+    margin: 0 0 7px 0;
+    padding: 0 0 0 62px;
+    zoom: 1;
+}
+
+.version-new,.version-fixed,.version-upgraded {
+    float: left;
+    font-size: 10px;
+    margin-left: -62px;
+    width: 55px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.version-new {
+    background: #7dc35b;
+}
+
+.version-fixed {
+    background: #e9a130;
+}
+
+.version-upgraded {
+    background: #61b3de;
+}
+
+

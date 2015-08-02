@@ -1,0 +1,434 @@
+/********************************************************/
+/*                   11. Block arrows                   */
+/********************************************************/
+.block-arrow {
+    display: block;
+    width: 0;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 1px 0 0 -6px;
+    border: 6px solid transparent;
+    border-top-color: inherit; //
+border-top-color: expression(this.parentNode.currentStyle [   'border-top-color' ]);
+    }
+
+.block-arrow>span {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: -7px -6px -5px -6px;
+    border: 6px solid transparent;
+    border-top-color: #e4e7eb;
+}
+
+.silver-gradient>.block-arrow>span {
+    border-top-color: #d6dadf;
+}
+
+.translucid>.block-arrow>span,.notification>.block-arrow>span,.black-gradient>.block-arrow>span
+{
+    border-top-color: #000000;
+}
+
+.anthracite-gradient>.block-arrow>span {
+    border-top-color: #404040;
+}
+
+.grey-gradient>.block-arrow>span {
+    border-top-color: #939393;
+}
+
+.red-gradient>.block-arrow>span {
+    border-top-color: #d52607;
+}
+
+.orange-gradient>.block-arrow>span {
+    border-top-color: #ff9e00;
+}
+
+.green-gradient>.block-arrow>span {
+    border-top-color: #87ba17;
+}
+
+.blue-gradient>.block-arrow>span {
+    border-top-color: #00438d;
+}
+
+.block-arrow.top {
+    top: auto;
+    left: 50%;
+    bottom: 100%;
+    margin: 0 0 1px -6px;
+    border-top-color: transparent;
+    border-bottom-color: inherit; //
+border-bottom-color: #565656;\9
+	/*border-bottom-color: expression(this.parentNode.currentStyle [   'border-bottom-color' ]);*/
+    }
+
+.block-arrow.top>span {
+    margin: -5px -6px -7px -6px;
+    border-top-color: transparent;
+    border-bottom-color: #f7f7fa;
+}
+
+.silver-gradient>.block-arrow.top>span {
+    border-bottom-color: #efeff4;
+}
+
+.translucid>.block-arrow.top>span,.notification>.block-arrow.top>span,.black-gradient>.block-arrow.top>span
+{
+    border-bottom-color: #333333;
+}
+
+.anthracite-gradient>.block-arrow.top>span {
+    border-bottom-color: #565656;
+}
+
+.grey-gradient>.block-arrow.top>span {
+    border-bottom-color: #b3b3b3;
+}
+
+.red-gradient>.block-arrow.top>span {
+    border-bottom-color: #e24913;
+}
+
+.orange-gradient>.block-arrow.top>span {
+    border-bottom-color: #ffb900;
+}
+
+.green-gradient>.block-arrow.top>span {
+    border-bottom-color: #a7cf34;
+}
+
+.blue-gradient>.block-arrow.top>span {
+    border-bottom-color: #006aac;
+}
+
+.block-arrow.right {
+    top: 50%;
+    left: 100%;
+    margin: -6px 0 0 1px;
+    border-top-color: transparent;
+    border-left-color: inherit; //
+border-left-color: expression(this.parentNode.currentStyle [   'border-left-color' ]);
+    }
+
+.block-arrow.right>span {
+    margin: -6px -5px -6px -7px;
+    border-top-color: transparent;
+    border-left-color: #eeeff2;
+}
+
+.silver-gradient>.block-arrow.right>span {
+    border-left-color: #e3e4ea;
+}
+
+.translucid>.block-arrow.right>span,.notification>.block-arrow.right>span,.black-gradient>.block-arrow.right>span
+{
+    border-left-color: #1a1a1a;
+}
+
+.anthracite-gradient>.block-arrow.right>span {
+    border-left-color: #4b4b4b;
+}
+
+.grey-gradient>.block-arrow.right>span {
+    border-left-color: #a3a3a3;
+}
+
+.red-gradient>.block-arrow.right>span {
+    border-left-color: #db370c;
+}
+
+.orange-gradient>.block-arrow.right>span {
+    border-left-color: #ffac00;
+}
+
+.green-gradient>.block-arrow.right>span {
+    border-left-color: #97c526;
+}
+
+.blue-gradient>.block-arrow.right>span {
+    border-left-color: #00569c;
+}
+
+.block-arrow.left {
+    top: 50%;
+    left: auto;
+    right: 100%;
+    margin: -6px 1px 0 0;
+    border-top-color: transparent;
+    border-right-color: inherit; //
+border-right-color: expression(this.parentNode.currentStyle [   'border-right-color' ]);
+    }
+
+.block-arrow.left>span {
+    margin: -6px -7px -6px -5px;
+    border-top-color: transparent;
+    border-right-color: #eeeff2;
+}
+
+.silver-gradient>.block-arrow.left>span {
+    border-right-color: #e3e4ea;
+}
+
+.translucid>.block-arrow.left>span,.notification>.block-arrow.left>span,.black-gradient>.block-arrow.left>span
+{
+    border-right-color: #1a1a1a;
+}
+
+.anthracite-gradient>.block-arrow.left>span {
+    border-right-color: #4b4b4b;
+}
+
+.grey-gradient>.block-arrow.left>span {
+    border-right-color: #a3a3a3;
+}
+
+.red-gradient>.block-arrow.left>span {
+    border-right-color: #db370c;
+}
+
+.orange-gradient>.block-arrow.left>span {
+    border-right-color: #ffac00;
+}
+
+.green-gradient>.block-arrow.left>span {
+    border-right-color: #97c526;
+}
+
+.blue-gradient>.block-arrow.left>span {
+    border-right-color: #00569c;
+}
+
+/********************************************************/
+/*                     19. Messages                     */
+/********************************************************/
+.message,.big-message {
+    display: block;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 16px;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.message {
+    padding: 6px 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: black;
+}
+
+.message .icon {
+    margin-top: -3px;
+}
+
+.message.compact {
+    padding: 3px 4px;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.big-message {
+    padding: 16px 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.big-message strong {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.message.silver-gradient,.big-message.silver-gradient,.message.white-gradient,.big-message.white-gradient
+{
+    -webkit-box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.message.black-gradient,.big-message.black-gradient,.message.anthracite-gradient,.big-message.anthracite-gradient,.message.grey-gradient,.big-message.grey-gradient,.message.red-gradient,.big-message.red-gradient,.message.orange-gradient,.big-message.orange-gradient,.message.green-gradient,.big-message.green-gradient,.message.blue-gradient,.big-message.blue-gradient
+{
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 1px 5px
+    rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 1px 5px
+    rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 1px 5px
+    rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.message.black-gradient,.big-message.black-gradient strong,.message.anthracite-gradient,.big-message.anthracite-gradient strong,.message.grey-gradient,.big-message.grey-gradient strong,.message.red-gradient,.big-message.red-gradient strong,.message.orange-gradient,.big-message.orange-gradient strong,.message.green-gradient,.big-message.green-gradient strong,.message.blue-gradient,.big-message.blue-gradient strong
+{
+    color: white;
+}
+
+.big-message.black-gradient,.big-message.anthracite-gradient,.big-message.grey-gradient,.big-message.red-gradient,.big-message.orange-gradient,.big-message.green-gradient,.big-message.blue-gradient
+{
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.message.simpler,.big-message.simpler {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.big-message-icon {
+    float: left;
+    margin: 0 17px 0 -3px;
+    text-align: center;
+}
+
+.big-message-icon:before {
+    display: block;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'EntypoRegular';
+    font-size: 80px;
+    line-height: 36px;
+    margin: 0;
+}
+
+.big-message-icon.with-text {
+    margin: -6px 20px -6px -6px;
+}
+
+.big-message-icon.with-text:before {
+    font-size: 56px;
+    line-height: 29px;
+}
+
+.big-message-icon.right-side {
+    float: right;
+    margin-left: 17px;
+    margin-right: -6px;
+}
+
+.big-message-icon.with-text.right-side {
+    margin-left: 20px;
+    margin-right: -6px;
+}
+
+/********************************************************/
+/*                   21. Notifications                  */
+/********************************************************/
+#top-notifications,#bottom-notifications {
+    position: absolute;
+    /* This is for older iOS devices that do not support position: fixed */
+    position: fixed;
+    z-index: 999400;
+    right: 0;
+    left: 0;
+    text-align: left;
+}
+
+#top-notifications {
+    top: 0;
+}
+
+#bottom-notifications {
+    bottom: 0;
+}
+
+#top-notifications>ul,#bottom-notifications>ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.notification {
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 5px;
+    position: relative;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 7px
+    rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 7px
+    rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 7px
+    rgba(0, 0, 0, 0.5);
+}
+
+.notification>.close {
+    margin: -3px -3px 0 0;
+}
+
+.notification>a,.notification>div {
+    display: block;
+    text-decoration: none;
+    padding: 6px 10px;
+    color: inherit;
+    margin: 0;
+}
+
+.notification.no-title>a,.notification.no-title>div {
+    color: white;
+}
+
+.notification>a>h3,.notification>div>h3 {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 4px;
+}
+
+.notification>a>b,.notification>div>b,.notification>div>a {
+    color: white;
+}
+
+.notification.silver-gradient.no-title>a,.notification.silver-gradient.no-title>div,.notification.silver-gradient>a>h3,.notification.silver-gradient>div>h3,.notification.white-gradient.no-title>a,.notification.white-gradient.no-title>div,.notification.white-gradient>a>h3,.notification.white-gradient>div>h3,.notification.silver-gradient>a>b,.notification.silver-gradient>div>b,.notification.white-gradient>a>b,.notification.white-gradient>div>b
+{
+    color: #333333;
+}
+
+.notification-icon {
+    float: left;
+    margin: 7px 6px 7px 8px;
+}
+
+.notification>.block-arrow {
+    display: none;
+}
+
+.extra-notifications {
+    padding: 2px 6px;
+    font-weight: bold;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 -1px 0
+    rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 -1px 0
+    rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 -1px 0
+    rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
+
+.more-notifications {
+    padding: 3px 7px;
+    cursor: pointer;
+}

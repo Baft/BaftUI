@@ -1,0 +1,173 @@
+
+/********************************************************/
+/*                       20. Tabs                       */
+/********************************************************/
+
+/* This wrapper class is required to handle responsive variations */
+.standard-tabs,.swipe-tabs,.side-tabs {
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+
+/* Actual tabs */
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.tabs>li {
+    padding: 12px 30px 12px 12px;
+    border-top: 1px solid #cccccc;
+    color: #c0c0c0;
+}
+
+.tabs>li:first-child {
+    border-top: 0;
+}
+
+.tabs>li>a {
+    display: block;
+    margin: -12px -30px -12px -12px;
+    padding: 12px 30px 12px 12px;
+    color: #666666;
+}
+
+.tabs>li>a:focus {
+    outline: 0;
+}
+
+.no-touch .tabs>li>a:hover {
+    color: black;
+}
+
+.tabs>li.disabled>a,.no-touch .tabs>li.disabled>a:hover {
+    color: #c0c0c0;
+}
+
+/* Content */
+.tabs-content {
+    background: white;
+    color: #666666;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Back button */
+.tabs-back {
+    display: block;
+    padding: 12px 12px 12px 30px;
+    color: #666666;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+    position: relative;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+/* When js is activated */
+.tabs-active>.tabs,.tabs-active>.tabs-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.tabs-active>.tabs-content {
+    left: 100%;
+}
+
+/* When transistions are enabled */
+.tabs-animated {
+    -webkit-transition: height 300ms;
+    -moz-transition: height 300ms;
+    -ms-transition: height 300ms;
+    -o-transition: height 300ms;
+    transition: height 300ms;
+}
+/* Animation must be disabled for inner tabs within equalized tabs, because it give false results */
+.same-height .tabs-animated {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.tabs-animated>.tabs,.tabs-animated>.tabs-content {
+    -webkit-transition: left 300ms;
+    -moz-transition: left 300ms;
+    -ms-transition: left 300ms;
+    -o-transition: left 300ms;
+    transition: left 300ms;
+}
+
+.csstransforms .tabs-animated>.tabs,.csstransforms .tabs-animated>.tabs-content
+{
+    -webkit-transition: -webkit-transform 300ms;
+    -moz-transition: -moz-transform 300ms;
+    -ms-transition: -ms-transform 300ms;
+    -o-transition: -o-transform 300ms;
+    transition: translatex 300ms;
+}
+
+/* When a tab is opened */
+.tab-opened>.tabs {
+    left: -100%;
+}
+
+.csstransforms .tab-opened>.tabs {
+    left: 0;
+    -webkit-transform: translatex(-100%);
+    -moz-transform: translatex(-100%);
+    -ms-transform: translatex(-100%);
+    -o-transform: translatex(-100%);
+    transform: translatex(-100%);
+}
+
+.tab-opened>.tabs-content {
+    left: 0;
+}
+
+.csstransforms .tab-opened>.tabs-content {
+    left: 100%;
+    -webkit-transform: translatex(-100%);
+    -moz-transform: translatex(-100%);
+    -ms-transform: translatex(-100%);
+    -o-transform: translatex(-100%);
+    transform: translatex(-100%);
+}
+
+/* Recursive tabs */
+.inner-tabs {
+    border: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.with-padding>.inner-tabs {
+    margin: -20px;
+}
+
+.inner-tabs>.tabs-content>.tabs-back {
+    display: none;
+}
+
