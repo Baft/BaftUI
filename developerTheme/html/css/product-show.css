@@ -1,0 +1,72 @@
+table.show{
+    text-align:center;
+    width:100%;
+    height:100%;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+table.show td{
+    border: 1px solid #0061a5;
+    height:100%
+}
+table.show th{
+    height:70px;
+    vertical-align:middle;
+    border: 1px solid #0061a5;
+}
+table.show td:first-child, table.show th:first-child{
+    border-right: 0px none;
+}
+table.show td:last-child, table.show th:last-child{
+    border-left: 0px none;
+}
+table.show td{
+    border-bottom: 0px none;
+    border-top: 0px none;
+}
+table.product {
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+table.product td{
+    padding:5px;
+    border: 1px solid #ca2582;
+
+}
+a.linktoProduct{
+    background-color: white;
+    display:inline-block;
+    border-radius: 5px;
+    padding:2px;
+    font-weight: bold;
+    font-size:8pt;
+    bottom:1px;
+
+}
+#product-show{
+    overflow-x: auto;
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 100, .5);
+}
+
+.custom-box{
+    padding:5px;
+    text-align:center;
+    margin:20px auto;
+    width:120px;
+    height:70px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .5);
+    background: -webkit-gradient(linear, right top, right bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(230, 235, 235, .7))), #3c4044 url(../img/textures/grid.png);
+}
+.custom-box .button{
+    border-radius:20px;
+}
+.filter-boxes{
+    margin: 5px 2px;
+	
+}
+.filter-boxes td{
+    text-align: center;
+	
+}

@@ -1,0 +1,225 @@
+@CHARSET "UTF-8";
+/**
+ *
+ * Base stylesheet
+ *
+ * Content:
+ * 1.   Global
+ * 2.   Basic elements/styles
+ * 3. # Typography
+ * 4. # Utility classes
+ * 5. # Generic shadows
+ * 6. # Generic bevel/emboss/gloss styles
+ * 7. # Generic effects
+ * 8. # Columns
+ * 9. # Lists & tags
+ * 10.# List arrows, count & sort handle
+ * 11.  Block arrows
+ * 12.# Generic elements
+ * 13.# Icons
+ * 14.  Main layout elements
+ * 15.  Menus styles
+ * 16.  Custom scrollbars
+ * 17.# Buttons
+ * 18.# Loaders
+ * 19.  Messages
+ * 20.  Tabs
+ * 21.  Notifications
+ * 22.  Tooltips
+ * 23.  Extra stuff
+ */
+
+/**
+ * Z-index hierachy guide :
+ *
+ * Main elements
+ * -------------
+ * 1 : shortcuts (tablet and desktop) & menu (desktop)
+ * 2 : main content
+ * 3 : title bar
+ * 4 : Menu opener
+ * 5 : Shortcuts opener
+ * 99 : shortcuts (mobile) & menu (mobile and tablet)
+ *
+ * Other styles
+ * -------------
+ * 88, 89 or 90 : Positioned elements at normal level
+ * 98 or 99 : Positioned for menus, drop-down menus
+ * 100 : Elements over drop-down menus
+ * 1000 : Dragged elements
+ * 999000 : scrollbars
+ * 999100 : tooltips
+ * 999200 : open selects
+ * 999300 : modal windows
+ * 999400 : notifications
+ * 999500 : tooltips over modals and notifications
+ * 999600 : open selects over modals and notifications
+ */
+
+/********************************************************/
+/*                       1. Global                      */
+/********************************************************/
+html {
+    -pie-load-path: "http://192.168.33.23/aris/doc/template/css/htc/";
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body,button,input,textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+
+/* Fix mobile browsers increased font-size */
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/********************************************************/
+/*               2. Basic elements/styles               */
+/********************************************************/
+p,ul,ol,dl {
+    margin-bottom: 16px;
+}
+
+p:last-child,ul:last-child,ol:last-child,dl:last-child,fieldset:last-child,.fieldset:last-child
+{
+    margin-bottom: 0;
+}
+/* IE7 */
+p.last-child,ul.last-child,ol.last-child {
+    margin-bottom: 0;
+}
+
+ol>li {
+    margin-top: 10px;
+}
+
+ol>li:first-child {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+small,.small {
+    font-size: 11px;
+    line-height: 13px;
+    color: #999999;
+}
+
+small.input-info,.small.input-info {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+iframe {
+    display: block;
+}
+
+.js noscript {
+    display: none;
+}
+
+
+/********************************************************/
+/*                    main styles                      */
+/********************************************************/
+
+.bg-color-oil-blue{
+    background-color: #025F80;
+}
+
+.color-light-orange , a:visited:hover , a:hover , a:active{
+    color: #DDB15A;
+}
+
+a,a:link{
+    color:white;
+}
+a:visited {
+    color:#499400;
+}
+
+.color-oil-blue{
+    color: #025F80;
+}
+
+.bg-color-light-orange{
+    background: #DDB15A;
+}
+
+/********************************************************/
+/*                    23. Extra stuff                   */
+/********************************************************/
+
+/* Taped link color */
+a:link {
+	-webkit-tap-highlight-color: rgb(52, 158, 219);
+}
+
+/* Better resized images under IE7 */
+.ie7 img,.iem7 img {
+	-ms-interpolation-mode: bicubic;
+}
+
+/* The legen - wait for it - dary clearfix */
+.clearfix:before,.clearfix:after,.columns:before,.columns:after,.left-column-200px:before,.left-column-200px:after,.right-column-200px:before,.right-column-200px:after,#profile:before,#profile:after,#main-title:before,#main-title:after,.notification:before,.notification:after,.inline-small-label:before,.inline-small-label:after,.inline-label:before,.inline-label:after,.inline-medium-label:before,.inline-medium-label:after,.inline-large-label:before,.inline-large-label:after,.definition.inline:before,.definition.inline:after,.blocks-list:before,.blocks-list:after
+	{
+	content: "\0020";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix:after,.columns:after,.left-column-200px:after,.right-column-200px:after,#profile:after,#main-title:after,.notification:after,.inline-small-label:after,.inline-label:after,.inline-medium-label:after,.inline-large-label:after,.definition.inline:after,.blocks-list:after
+	{
+	clear: both;
+}
+
+.clearfix,.columns,.left-column-200px,.right-column-200px,#profile,#main-title,.notification,.inline-small-label,.inline-label,.inline-medium-label,.inline-large-label,.definition.inline,.blocks-list
+	{
+	zoom: 1;
+}
+
+/* Image replacement */
+.ir {
+	display: block;
+	text-indent: -999em;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	direction: ltr;
+}
+
+/* Hide visually */
+.visuallyhidden {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
+	margin: -1px;
+	padding: 0;
+	height: 1px;
+	width: 1px;
+	border: 0;
+}
+
+/* Allow an element to be focusable via keyboard  */
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+	position: static;
+	clip: auto;
+	overflow: visible;
+	height: auto;
+	margin: 0;
+	width: auto;
+}
+

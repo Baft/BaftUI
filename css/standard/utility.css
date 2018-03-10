@@ -1,0 +1,586 @@
+/********************************************************/
+/*                  4. Utility classes                  */
+/********************************************************/
+
+/*direction*/
+.ltr {
+    direction: ltr;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+/* Align */
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.valign-top{
+    vertical-align: top;
+}
+
+.valign-bottom{
+    vertical-align: bottom;
+}
+
+.valign-middle{
+    vertical-align: middle;
+}
+
+/* Floating elements */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-none {
+    float: none;
+}
+
+.clear-left {
+    clear: left !important;
+}
+
+.clear-right {
+    clear: right !important;
+}
+
+.clear-both {
+    clear: both !important;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.display-table {
+    display: table !important;
+}
+
+.display-none {
+    display: none !important;
+    /* visibility: hidden !important; */
+}
+
+.display-inline-table {
+    display: inline-table !important;
+}
+
+.display-table-cell {
+    display: table-cell !important;
+}
+
+.display-inline {
+    display: inline !important;
+}
+
+/* Hide but maintain layout */
+.invisible {
+    visibility: hidden !important;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+/* Padding */
+.with-padding, .padding {
+    padding: 20px !important;
+}
+
+.with-mid-padding, .mid-padding {
+    padding: 10px !important;
+}
+
+.with-small-padding, .small-padding {
+    padding: 5px !important;
+}
+
+.small-padding-left {
+    padding-left: 5px !important;
+}
+
+.mid-padding-left {
+    padding-left: 10px !important;
+}
+
+.large-padding-left {
+    padding-left: 20px !important;
+}
+
+.no-padding-left {
+    padding-left: 0px !important;
+}
+
+.no-padding-right {
+    padding-right: 0px !important;
+}
+
+.no-padding-top {
+    padding-top: 0px !important;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0px !important;
+}
+
+.small-padding {
+    padding: 5px !important;
+}
+
+.mid-padding {
+    padding: 10px !important;
+}
+
+.large-padding {
+    padding: 20px !important;
+}
+
+.small-padding-right {
+    padding-right: 5px !important;
+}
+
+.mid-padding-right {
+    padding-right: 10px !important;
+}
+
+.large-padding-right {
+    padding-right: 20px !important;
+}
+
+.small-padding-top {
+    padding-top: 5px !important;
+}
+
+.mid-padding-top {
+    padding-top: 10px !important;
+}
+
+.large-padding-top {
+    padding-top: 20px !important;
+}
+
+.small-padding-bottom {
+    padding-bottom: 5px !important;
+}
+
+.mid-padding-bottom {
+    padding-bottom: 10px !important;
+}
+
+.large-padding-bottom {
+    padding-bottom: 20px !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+/* Margins */
+.no-margin {
+    margin: 0px !important;
+}
+
+.large-margin, .with-large-padding {
+    margin: 30px !important;
+}
+
+.large-margin-top {
+    margin-top: 30px !important;
+}
+
+.margin, .with-padding {
+    margin: 16px !important;
+}
+
+.margin-top {
+    margin-top: 16px !important;
+}
+
+.mid-margin-top {
+    margin-top: 8px !important;
+}
+
+.mid-margin, .with-mid-padding {
+    margin: 8px !important;
+}
+
+.small-margin, .with-small-padding {
+    margin: 4px !important;
+}
+
+.small-margin-top {
+    margin-top: 4px !important;
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.large-margin-right {
+    margin-right: 30px !important;
+}
+
+.margin-right {
+    margin-right: 16px !important;
+}
+
+.mid-margin-right {
+    margin-right: 8px !important;
+}
+
+.small-margin-right {
+    margin-right: 4px !important;
+}
+
+.no-margin-right {
+    margin-right: 0 !important;
+}
+
+.large-margin-left {
+    margin-left: 30px !important;
+}
+
+.margin-left {
+    margin-left: 16px !important;
+}
+
+.mid-margin-left {
+    margin-left: 8px !important;
+}
+
+.small-margin-left {
+    margin-left: 4px !important;
+}
+
+.no-margin-left {
+    margin-left: 0 !important;
+}
+
+.large-margin-bottom {
+    margin-bottom: 30px !important;
+}
+
+.margin-bottom {
+    margin-bottom: 16px !important;
+}
+
+.mid-margin-bottom {
+    margin-bottom: 8px !important;
+}
+
+.small-margin-bottom {
+    margin-bottom: 4px !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.full-width{
+    width:100%;
+}
+
+.full-height{
+    height: 100%;
+}
+
+/********************************************************/
+/*                     positioning                      */
+/********************************************************/
+
+/* positioning */
+.relative,.position-relative {
+    position: relative;
+}
+
+.absolute,.position-absolute {
+    position: absolute;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.static,.position-static{
+    position: static;
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+}
+
+
+/********************************************************/
+/*                        stuff                         */
+/********************************************************/
+
+
+/* This class disables mouse events on compatible browsers, a polyfill is provded in setup.js for others */
+.no-pointer-events {
+    pointer-events: none;
+}
+
+/* This class is only active if the device does not handle touch */
+.no-touch .show-on-parent-hover {
+    pointer-events: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity =   0);
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    -webkit-transition: opacity 200ms;
+    -moz-transition: opacity 200ms;
+    -ms-transition: opacity 200ms;
+    -o-transition: opacity 200ms;
+    transition: opacity 200ms;
+}
+
+.no-touch :hover>.show-on-parent-hover {
+    pointer-events: auto;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity =   100);
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+/* IE7 vertically aligned images fix */
+.vert-align {
+    display: inline;
+    width: 0;
+    margin-right: -4px;
+}
+
+.round-corner-13 {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    position: relative;
+    z-index: 0;
+    /*behavior: url(http://192.168.33.23/aris/doc/template/PIE.php);*/
+    behavior: url(css/htc/PIE.htc);
+}
+
+/********************************************************/
+/*                         typo                         */
+/********************************************************/
+
+.font-thin {
+    font-weight: lighter;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-bolder {
+    font-weight: 700;
+}
+
+.font-small {
+    font-size: 0.70em;
+}
+
+.font-mid {
+    font-size: 0.81em;
+}
+
+.font-large {
+    font-size: 1.2em;
+}
+
+.font-xlarge {
+    font-size: 1.3em;
+}
+
+.font-xxlarge {
+    font-size: 1.4em;
+}
+
+.font-xxxlarge {
+    font-size: 1.6em;
+}
+
+.line-height-small {
+    line-height: 18px;
+}
+
+.line-height-mid {
+    line-height: 22px;
+}
+
+.line-height-large {
+    line-height: 30px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+.angle-quote:AFTER{
+    content:'»';
+}
+
+.angle-quote:BEFORE{
+    content:'«';
+}
+
+.htc {
+    /* url of htc is relative and from whereas css loaded , here is from index.html place*/
+    behavior: url(css/htc/PIE.htc);
+}
+
+/********************************************************/
+/*                       effects                        */
+/********************************************************/
+
+.box-shadow {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.bg-transparent-ie {
+    background: transparent\9; /* clear current background for ie */
+    zoom: 1; /* required for the filters */
+    /* IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#77FFFFFF,
+        endColorstr=#77FFFFFF);
+    /* IE 8*/
+    -ms-filter:
+        "progid:DXImageTransform.Microsoft.gradient(startColorstr=#77FFFFFF, endColorstr=#77FFFFFF)";
+}
+
+.transparent {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity = 50);
+    -moz-opacity: 0.5;
+    /* Safari 1.x */
+    -khtml-opacity: 0.5;
+    /* Good browsers */
+    opacity: 0.5;
+}
+
+.no-transparent {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity = 100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+/********************************************************/
+/*                     solid colors                     */
+/********************************************************/
+.color-silver {
+    color: #cccccc !important;
+}
+
+.color-silver.icon-silver:before {
+    color: #cccccc;
+}
+
+.color-black {
+    color: black !important;
+}
+
+.color-black.icon-black:before {
+    color: black;
+}
+
+.color-anthracite {
+    color: #4c4c4c !important;
+}
+
+.color-anthracite.icon-anthracite:before {
+    color: #4c4c4c;
+}
+
+.color-grey {
+    color: #a5a5a5 !important;
+}
+
+.color-grey.icon-grey:before {
+    color: #a5a5a5;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.color-white.icon-white:before {
+    color: white;
+}
+
+.color-red {
+    color: #dd380d !important;
+}
+
+.color-red.icon-red:before {
+    color: #dd380d;
+}
+
+.color-orange {
+    color: #ffae00 !important;
+}
+
+.color-orange.icon-orange:before {
+    color: #ffae00;
+}
+
+.color-green {
+    color: #99c624 !important;
+}
+
+.color-green.icon-green:before {
+    color: #99c624;
+}
+
+.color-blue {
+    color: #0059a0 !important;
+}
+
+.color-blue.icon-blue:before {
+    color: #0059a0;
+}

@@ -1,0 +1,179 @@
+/********************************************************/
+/*                    3. Typography                     */
+/********************************************************/
+
+
+
+body{
+    font-size: 62.5%; /* font-size 1em = 10px */
+}
+
+h1,h2,
+.h1,.h2 {
+    padding: 0;
+    -webkit-text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+h1 ,.h1{
+    font-size: 3em;/*font-size: 30px;*/
+    line-height: 36px;
+    margin-bottom: 26px;
+}
+
+h2 ,.h2{
+    font-size: 2.4em;/*font-size: 24px;*/
+    line-height: 28px;
+    margin: 32px 0 22px;
+}
+
+h3 ,.h3{
+    font-size: 2.1em;/*font-size: 21px;*/
+    line-height: 25px;
+    margin: 30px 0 20px;
+}
+
+h4 ,.h4{
+    /*font-size: 16px;*/
+    font-size: 1.6em;
+    line-height: 19px;
+    margin: 25px 0 15px;
+}
+
+h5 ,.h5{
+    font-size: 1.3em;
+    margin: 20px 0 10px;
+}
+
+h6 ,.h6{
+    font-size: 1.1em;/*font-size: 11px;*/
+    text-transform: uppercase;
+}
+
+h2:first-child,.h2:first-child,
+h3:first-child,.h3:first-child,
+h4:first-child,.h4:first-child,
+h5:first-child,.h5:first-child,
+h6:first-child,.h6:first-child{
+    margin-top: 0;
+}
+
+.thin,.thin h1,.thin h2,.thin h3,.thin h4,.thin h5,.thin h6,
+.thin .h1,.thin .h2,.thin .h3,.thin .h4,.thin .h5,.thin .h6
+{
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.underline {
+    padding-bottom: 0.15em;
+    border-bottom: 1px solid;
+}
+
+/* Text styles */
+.big-text {
+    font-size: 1.8em;/*font-size: 18px;*/
+    line-height: 24px;
+}
+
+.intro {
+    font-style: italic;
+    color: #afafaf;
+}
+
+/* Box styling */
+.left-border {
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+
+.right-border {
+    border-right: 2px solid;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.txt-effect-simple-shadow{
+color:#fff;
+background-color:#ece9e9;
+text-shadow:#474747 3px 5px 2px;
+}
+
+.txt-effect-inset{
+	color:#616161;
+background-color:#bababa;
+text-shadow:#e0e0e0 1px 1px 0;
+}
+
+.txt-effect-retro{
+color:#fff;
+background-color:#b8b8b8;
+text-shadow:#7a7a7a 4px 3px 0;
+}
+
+.txt-effect-glow{
+color:#fff;
+background-color:#474747;
+text-shadow:#fff 0 0 10px;
+}
+
+.txt-effect-neon{
+color:#fff;
+background-color:#232323;
+text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.txt-effect-fire{
+color:#fff;
+background-color:#333;
+text-shadow:#fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+}
+
+.txt-effect-blur{
+color:rgba(255,255,255,.3);
+background-color:#1a1a1a;
+text-shadow:rgba(255,255,255,.5) 0 0 15px, rgba(255,255,255,.5) 0 0 10px;
+}
+
+.txt-effect-simple-shadow{
+color:rgba(0,0,0,.6);
+background-color:#6e6e6e;
+text-shadow:rgba(255,255,255,.2) 3px 2px 3px;
+}
+
+.txt-effect-realistic-emboss{
+color:rgba(0,0,0,.6);
+background-color:#dadada;
+text-shadow:rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;
+}
+
+.txt-effect-artistic-emboss{
+color:#d9d9d9;
+background-color:#e8e8e8; 
+text-shadow:rgba(255,255,255,.1) -1px -1px 1px,rgba(0,0,0,.5) 1px 1px 1px;
+}
+
+.txt-effect-bold-sharp{
+color:#d9d9d9;
+background-color:#bababa;
+text-shadow:#2e2e2e 0 4px 5px;
+}
+
+.txt-effect-classic-3d{
+color:#000000;
+background-color:#ffffff;
+text-shadow:2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+.txt-effect-simple-3d{
+color:#fff;
+background-color:#ffffff;
+text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+.txt-effect-realistic-3d{
+color:#fff;
+background-color:#696969;
+text-shadow:#ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0,rgba(0,0,0,.1) 0 6px 1px, rgba(0,0,0,.1) 0 0 5px, rgba(0,0,0,.3) 0 1px 3px, rgba(0,0,0,.15) 0 3px 5px, rgba(0,0,0,.2) 0 5px 10px, rgba(0,0,0,.2) 0 10px 10px, rgba(0,0,0,.1) 0 20px 20px;
+}

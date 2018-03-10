@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <object class="GtkWindow" id="authentication_pane">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkAlignment" id="alignment">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="xscale">0.5</property>
+        <property name="yscale">0.5</property>
+        <child>
+          <object class="GtkVBox" id="vbox1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">30</property>
+            <property name="margin_right">30</property>
+            <property name="hexpand">True</property>
+            <property name="spacing">8</property>
+            <child>
+              <object class="GtkLabel" id="message_label">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="hexpand">True</property>
+                <property name="vexpand">True</property>
+                <property name="xalign">0</property>
+                <property name="label" translatable="yes">label</property>
+                <property name="wrap">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property n

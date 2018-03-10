@@ -1,0 +1,23 @@
+@import "../standard/colors.css";
+@import "../standard/agenda.css";
+@import "../standard/generic_element.css";
+@import "../standard/typography.css";
+@import "../standard/utility.css";
+@import "../standard/effect.css";
+@import "../standard/column.css";
+@import "../standard/list.css";
+@import "../standard/icon/entypo.css";
+@import "../standard/message.css";
+/* @import "../standard/error.css";*/
+@import "../standard/modal.css";
+@import "../standard/files.css";
+@import "../standard/switches.css";
+@import "../standard/tab.css";
+@import "../standard/table.css";
+@import "../standard/tooltip.css";
+@import "../standard/button.css";
+@import "../standard/form.css";
+@import "../standard/menue.css";
+@import "../standard/calendars.css";
+@import "../standard/scrollbar.css";
+

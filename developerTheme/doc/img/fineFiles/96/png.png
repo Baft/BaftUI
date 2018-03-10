@@ -1,0 +1,774 @@
+m} : Pampanga
+
+=item {pag} : Pangasinan
+
+=item {pa} : Panjabi
+
+eq Punjabi
+
+=item {pap} : Papiamento
+
+eq Papiamentu.
+
+=item [{paa} : Papuan (Other)]
+
+=item {fa} : Persian
+
+eq Farsi.  eq Iranian.
+
+=item {peo} : Old Persian (ca.600-400 B.C.)
+
+=item [{phi} : Philippine (Other)]
+
+=item {phn} : Phoenician
+
+(Historical)
+
+=item {pon} : Pohnpeian
+
+NOT Pompeiian!
+
+=item {pl} : Polish
+
+=item {pt} : Portuguese
+
+eq Portugese.  Notable forms:
+{pt-pt} Portugal Portuguese;
+{pt-br} Brazilian Portuguese.
+
+=item [{pra} : Prakrit languages]
+
+=item {pro} : Old Provencal (to 1500)
+
+eq Old ProvenE<ccedil>al.  (Historical.)
+
+=item {ps} : Pushto
+
+eq Pashto.  eq Pushtu.
+
+=item {qu} : Quechua
+
+eq Quecha.
+
+=item {rm} : Raeto-Romance
+
+eq Romansh.
+
+=item {raj} : Rajasthani
+
+=item {rap} : Rapanui
+
+=item {rar} : Rarotongan
+
+=item [{qaa - qtz} : Reserved for local use.]
+
+=item [{roa} : Romance (Other)]
+
+NOT Romanian!  NOT Romany!  NOT Romansh!
+
+=item {ro} : Romanian
+
+eq Rumanian.  NOT Romany!
+
+=item {rom} : Romany
+
+eq Rom.  NOT Romanian!
+
+=item {rn} : Rundi
+
+=item {ru} : Russian
+
+NOT White Russian!  NOT Rusyn!
+
+=item [{sal} : Salishan languages]
+
+Large language group.
+
+=item {sam} : Samaritan Aramaic
+
+NOT Aramaic!
+
+=item {se} : Northern Sami
+
+eq Lappish.  eq Lapp.  eq (Northern) Saami.
+
+=item {sma} : Southern Sami
+
+=item {smn} : Inari Sami
+
+=item {smj} : Lule Sami
+
+=item {sms} : Skolt Sami
+
+=item [{smi} : Sami languages (Other)]
+
+=item {sm} : Samoan
+
+=item {sad} : Sandawe
+
+=item {sg} : Sango
+
+=item {sa} : Sanskrit
+
+(Historical)
+
+=item {sat} : Santali
+
+=item {sc} : Sardinian
+
+eq Sard.
+
+=item {sas} : Sasak
+
+=item {sco} : Scots
+
+NOT Scots Gaelic!
+
+=item {sel} : Selkup
+
+=item [{sem} : Semitic (Other)]
+
+=item {sr} : Serbian
+
+eq Serb.  NOT Sorbian.
+
+Notable forms:
+{sr-Cyrl} : Serbian in Cyrillic script;
+{sr-Latn} : Serbian in Latin script.
+
+=item {srr} : Serer
+
+=item {shn} : Shan
+
+=item {sn} : Shona
+
+=item {sid} : Sidamo
+
+=item {sgn-...} : Sign Languages
+
+Always use with a subtag.  Notable forms:
+{sgn-gb} British Sign Language (BSL);
+{sgn-ie} Irish Sign Language (ESL);
+{sgn-ni} Nicaraguan Sign Language (ISN);
+{sgn-us} American Sign Language (ASL).
+
+(And so on with other country codes as the subtag.)
+
+=item {bla} : Siksika
+
+eq Blackfoot.  eq Pikanii.
+
+=item {sd} : Sindhi
+
+=item {si} : Sinhalese
+
+eq Sinhala.
+
+=item [{sit} : Sino-Tibetan (Other)]
+
+=item [{sio} : Siouan languages]
+
+=item {den} : Slave (Athapascan)
+
+("Slavey" is a subform.)
+
+=item [{sla} : Slavic (Other)]
+
+=item {sk} : Slovak
+
+eq Slovakian.
+
+=item {sl} : Slovenian
+
+eq Slovene.
+
+=item {sog} : Sogdian
+
+=item {so} : Somali
+
+=item {son} : Songhai
+
+=item {snk} : Soninke
+
+=item {wen} : Sorbian languages
+
+eq Wendish.  eq Sorb.  eq Lusatian.  eq Wend.  NOT Venda!  NOT Serbian!
+
+=item {nso} : Northern Sotho
+
+=item {st} : Southern Sotho
+
+eq Sutu.  eq Sesotho.
+
+=item [{sai} : South American Indian (Other)]
+
+=item {es} : Spanish
+
+Notable forms:
+{es-ar} Argentine Spanish;
+{es-bo} Bolivian Spanish;
+{es-cl} Chilean Spanish;
+{es-co} Colombian Spanish;
+{es-do} Dominican Spanish;
+{es-ec} Ecuadorian Spanish;
+{es-es} Spain Spanish;
+{es-gt} Guatemalan Spanish;
+{es-hn} Honduran Spanish;
+{es-mx} Mexican Spanish;
+{es-pa} Panamanian Spanish;
+{es-pe} Peruvian Spanish;
+{es-pr} Puerto Rican Spanish;
+{es-py} Paraguay Spanish;
+{es-sv} Salvadoran Spanish;
+{es-us} US Spanish;
+{es-uy} Uruguayan Spanish;
+{es-ve} Venezuelan Spanish.
+
+=item {suk} : Sukuma
+
+=item {sux} : Sumerian
+
+(Historical)
+
+=item {su} : Sundanese
+
+=item {sus} : Susu
+
+=item {sw} : Swahili
+
+eq Kiswahili
+
+=item {ss} : Swati
+
+=item {sv} : Swedish
+
+Notable forms:
+{sv-se} Sweden Swedish;
+{sv-fi} Finland Swedish.
+
+=item {syr} : Syriac
+
+=item {tl} : Tagalog
+
+=item {ty} : Tahitian
+
+=item [{tai} : Tai (Other)]
+
+NOT Thai!
+
+=item {tg} : Tajik
+
+=item {tmh} : Tamashek
+
+=item {ta} : Tamil
+
+=item {i-tao} : Tao
+
+eq Yami.
+
+=item {tt} : Tatar
+
+=item {i-tay} : Tayal
+
+eq Atayal.  eq Atayan.
+
+=item {te} : Telugu
+
+=item {ter} : Tereno
+
+=item {tet} : Tetum
+
+=item {th} : Thai
+
+NOT Tai!
+
+=item {bo} : Tibetan
+
+=item {tig} : Tigre
+
+=item {ti} : Tigrinya
+
+=item {tem} : Timne
+
+eq Themne.  eq Timene.
+
+=item {tiv} : Tiv
+
+=item {tli} : Tlingit
+
+=item {tpi} : Tok Pisin
+
+=item {tkl} : Tokelau
+
+=item {tog} : Tonga (Nyasa)
+
+NOT Tsonga!
+
+=item {to} : Tonga (Tonga Islands)
+
+(Pronounced "Tong-a", not "Tong-ga")
+
+NOT Tsonga!
+
+=item {tsi} : Tsimshian
+
+eq Sm'algyax
+
+=item {ts} : Tsonga
+
+NOT Tonga!
+
+=item {i-tsu} : Tsou
+
+=item {tn} : Tswana
+
+Same as Setswana.
+
+=item {tum} : Tumbuka
+
+=item [{tup} : Tupi languages]
+
+=item {tr} : Turkish
+
+(Typically in Roman script)
+
+=item {ota} : Ottoman Turkish (1500-1928)
+
+(Typically in Arabic script)  (Historical)
+
+=item {crh} : Crimean Turkish
+
+eq Crimean Tatar
+
+=item {tk} : Turkmen
+
+eq Turkmeni.
+
+=item {tvl} : Tuvalu
+
+=item {tyv} : Tuvinian
+
+eq Tuvan.  eq Tuvin.
+
+=item {tw} : Twi
+
+=item {udm} : Udmurt
+
+=item {uga} : Ugaritic
+
+NOT Ugric!
+
+=item {ug} : Uighur
+
+=item {uk} : Ukrainian
+
+=item {umb} : Umbundu
+
+=item {und} : Undetermined
+
+Not a tag for normal use.
+
+=item {ur} : Urdu
+
+=item {uz} : Uzbek
+
+eq E<Ouml>zbek
+
+Notable forms:
+{uz-Cyrl} Uzbek in Cyrillic script;
+{uz-Latn} Uzbek in Latin script.
+
+=item {vai} : Vai
+
+=item {ve} : Venda
+
+NOT Wendish!  NOT Wend!  NOT Avestan!  (Formerly "ven".)
+
+=item {vi} : Vietnamese
+
+eq Viet.
+
+=item {vo} : Volapuk
+
+eq VolapE<uuml>k.  (Artificial)
+
+=item {vot} : Votic
+
+eq Votian.  eq Vod.
+
+=item [{wak} : Wakashan languages]
+
+=item {wa} : Walloon
+
+=item {wal} : Walamo
+
+eq Wolaytta.
+
+=item {war} : Waray
+
+Presumably the Philippine language Waray-Waray (SamareE<ntilde>o),
+not the smaller Philippine language Waray Sorsogon, nor the extinct
+Australian language Waray.
+
+=item {was} : Washo
+
+eq Washoe
+
+=item {cy} : Welsh
+
+=item {wo} : Wolof
+
+=item {x-...} : Unregistered (Semi-Private Use)
+
+"x-" is a prefix for language tags that are not registered with ISO
+or IANA.  Example, x-double-dutch
+
+=item {xh} : Xhosa
+
+=item {sah} : Yakut
+
+=item {yao} : Yao
+
+(The Yao in Malawi?)
+
+=item {yap} : Yapese
+
+eq Yap
+
+=item {ii} : Sichuan Yi
+
+=item {yi} : Yiddish
+
+Formerly "ji".  Usually in Hebrew script.
+
+Notable forms:
+{yi-latn} Yiddish in Latin script
+
+=item {yo} : Yoruba
+
+=item [{ypk} : Yupik languages]
+
+Several "Eskimo" languages.
+
+=item {znd} : Zande
+
+=item [{zap} : Zapotec]
+
+(A group of languages.)
+
+=item {zen} : Zenaga
+
+NOT Zend.
+
+=item {za} : Zhuang
+
+=item {zu} : Zulu
+
+=item {zun} : Zuni
+
+eq ZuE<ntilde>i
+
+=back
+
+=for woohah END
+
+=head1 SEE ALSO
+
+L<I18N::LangTags|I18N::LangTags> and its "See Also" section.
+
+=head1 COPYRIGHT AND DISCLAIMER
+
+Copyright (c) 2001+ Sean M. Burke. All rights reserved.
+
+You can redistribute and/or
+modify this document under the same terms as Perl itself.
+
+This document is provided in the hope that it will be
+useful, but without any warranty;
+without even the implied warranty of accuracy, authoritativeness,
+completeness, merchantability, or fitness for a particular purpose.
+
+Email any corrections or questions to me.
+
+=head1 AUTHOR
+
+Sean M. Burke, sburkeE<64>cpan.org
+
+=cut
+
+
+# To generate a list of just the two and three-letter codes:
+
+#!/usr/local/bin/perl -w
+
+require 5; # Time-stamp: "2001-03-13 21:53:39 MST"
+ # Sean M. Burke, sburke@cpan.org
+ # This program is for generating the language_codes.txt file
+use strict;
+use LWP::Simple;
+use HTML::TreeBuilder 3.10;
+my $root = HTML::TreeBuilder->new();
+my $url = 'http://lcweb.loc.gov/standards/iso639-2/bibcodes.html';
+$root->parse(get($url) || die "Can't get $url");
+$root->eof();
+
+my @codes;
+
+foreach my $tr ($root->find_by_tag_name('tr')) {
+  my @f = map $_->as_text(), $tr->content_list();
+  #print map("<$_> ", @f), "\n";
+  next unless @f == 5;
+  pop @f; # nix the French name
+  next if $f[-1] eq 'Language Name (English)'; # it's a header line
+  my $xx = splice(@f, 2,1); # pull out the two-letter code
+  $f[-1] =~ s/^\s+//;
+  $f[-1] =~ s/\s+$//;
+  if($xx =~ m/[a-zA-Z]/) {   # there's a two-letter code for it
+    push   @codes, [ lc($f[-1]),   "$xx\t$f[-1]\n" ];
+  } else { # print the three-letter codes.
+    if($f[0] eq $f[1]) {
+      push @codes, [ lc($f[-1]), "$f[1]\t$f[2]\n" ];
+    } else { # shouldn't happen
+      push @codes, [ lc($f[-1]), "@f !!!!!!!!!!\n" ]; 
+    }
+  }
+}
+
+print map $_->[1], sort {; $a->[0] cmp $b->[0] } @codes;
+print "[ based on $url\n at ", scalar(localtime), "]\n",
+  "[Note: doesn't include IANA-registered codes.]\n";
+exit;
+__END__
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+package IO::Compress::Base ;
+
+require 5.006 ;
+
+use strict ;
+use warnings;
+
+use IO::Compress::Base::Common 2.060 ;
+
+use IO::File (); ;
+use Scalar::Util ();
+
+#use File::Glob;
+#require Exporter ;
+use Carp() ;
+use Symbol();
+#use bytes;
+
+our (@ISA, $VERSION);
+@ISA    = qw(Exporter IO::File);
+
+$VERSION = '2.060';
+
+#Can't locate object method "SWASHNEW" via package "utf8" (perhaps you forgot to load "utf8"?) at .../ext/Compress-Zlib/Gzip/blib/lib/Compress/Zlib/Common.pm line 16.
+
+sub saveStatus
+{
+    my $self   = shift ;
+    ${ *$self->{ErrorNo} } = shift() + 0 ;
+    ${ *$self->{Error} } = '' ;
+
+    return ${ *$self->{ErrorNo} } ;
+}
+
+
+sub saveErrorString
+{
+    my $self   = shift ;
+    my $retval = shift ;
+    ${ *$self->{Error} } = shift ;
+    ${ *$self->{ErrorNo} } = shift() + 0 if @_ ;
+
+    return $retval;
+}
+
+sub croakError
+{
+    my $self   = shift ;
+    $self->saveErrorString(0, $_[0]);
+    Carp::croak $_[0];
+}
+
+sub closeError
+{
+    my $self = shift ;
+    my $retval = shift ;
+
+    my $errno = *$self->{ErrorNo};
+    my $error = ${ *$self->{Error} };
+
+    $self->close();
+
+    *$self->{ErrorNo} = $errno ;
+    ${ *$self->{Error} } = $error ;
+
+    return $retval;
+}
+
+
+
+sub error
+{
+    my $self   = shift ;
+    return ${ *$self->{Error} } ;
+}
+
+sub errorNo
+{
+    my $self   = shift ;
+    return ${ *$self->{ErrorNo} } ;
+}
+
+
+sub writeAt
+{
+    my $self = shift ;
+    my $offset = shift;
+    my $data = shift;
+
+    if (defined *$self->{FH}) {
+        my $here = tell(*$self->{FH});
+        return $self->saveErrorString(undef, "Cannot seek to end of output filehandle: $!", $!) 
+            if $here < 0 ;
+        seek(*$self->{FH}, $offset, IO::Handle::SEEK_SET)
+            or return $self->saveErrorString(undef, "Cannot seek to end of output filehandle: $!", $!) ;
+        defined *$self->{FH}->write($data, length $data)
+            or return $self->saveErrorString(undef, $!, $!) ;
+        seek(*$self->{FH}, $here, IO::Handle::SEEK_SET)
+            or return $self->saveErrorString(undef, "Cannot seek to end of output filehandle: $!", $!) ;
+    }
+    else {
+        substr(${ *$self->{Buffer} }, $offset, length($data)) = $data ;
+    }
+
+    return 1;
+}
+
+sub outputPayload
+{
+
+    my $self = shift ;
+    return $self->output(@_);
+}
+
+
+sub output
+{
+    my $self = shift ;
+    my $data = shift ;
+    my $last = shift ;
+
+    return 1 
+        if length $data == 0 && ! $last ;
+
+    if ( *$self->{FilterContainer} ) {
+        *_ = \$data;
+        &{ *$self->{FilterContainer} }();
+    }
+
+    if (length $data) {
+        if ( defined *$self->{FH} ) {
+                defined *$self->{FH}->write( $data, length $data )
+                or return $self->saveErrorString(0, $!, $!); 
+        }
+        else {
+                ${ *$self->{Buffer} } .= $data ;
+        }
+    }
+
+    return 1;
+}
+
+sub getOneShotParams
+{
+    return ( 'multistream' => [IO::Compress::Base::Common::Parse_boolean,   1],
+           );
+}
+
+our %PARAMS = (
+            # Generic Parameters
+            'autoclose' => [IO::Compress::Base::Common::Parse_boolean,   0],
+            'encode'    => [IO::Compress::Base::Common::Parse_any,       undef],
+            'strict'    => [IO::Compress::Base::Common::Parse_boolean,   1],
+            'append'    => [IO::Compress::Base::Common::Parse_boolean,   0],
+            'binmodein' => [IO::Compress::Base::Common::Parse_boolean,   0],
+
+            'filtercontainer' => [IO::Compress::Base::Common::Parse_code,  undef],
+        );
+        
+sub checkParams
+{
+    my $self = shift ;
+    my $class = shift ;
+
+    my $got = shift || IO::Compress::Base::Parameters::new();
+
+    $got->parse(
+        {
+            %PARAMS,
+
+
+            $self->getExtraParams(),
+            *$self->{OneShot} ? $self->getOneShotParams() 
+                              : (),
+        }, 
+        @_) or $self->croakError("${class}: " . $got->getError())  ;
+
+    return $got ;
+}
+
+sub _create
+{
+    my $obj = shift;
+    my $got = shift;
+
+    *$obj->{Closed} = 1 ;
+
+    my $class = ref $obj;
+    $obj->croakError("$class: Missing Output parameter")
+        if ! @_ && ! $got ;
+
+    my $outValue = shift ;
+    my $oneShot = 1 ;
+
+    if (! $got)
+    {
+        $oneShot = 0 ;
+        $got = $obj->checkParams($class, undef, @_)
+            or return undef ;
+    }
+
+    my $lax = ! $got->getValue('strict') ;
+
+    my $outType = IO::Compress::Base::Common::whatIsOutput($outValue);
+
+    $obj->ckOutputParam($class, $outValue)
+        or return undef ;
+
+    if ($outType eq 'buffer') {
+        *$obj->{Buffer} = $outValue;
+    }
+    else {
+        my $buff = "" ;
+        *$obj->{Buffer} = \$buff ;
+    }
+
+    # Merge implies Append
+    my $merge = $got->getValue('merge') ;
+    my $appendOutput = $got->getValue('append') || $merge ;
+    *$obj->{Append} = $appendOutput;
+    *$obj->{FilterContainer} = $got->getValue('filtercontainer') ;
+
+    if ($merge)
+    {
+        # Switch off Merge mode if output file/buffer is empty/doesn't exist
+        if (($outType eq 'buffer' && length $$outValue == 0 ) ||
+            ($outType ne 'buffer' && (! -e $outValue || (-w _ && -z _))) )
+          { $merge = 0 }
+    }
+
+ 

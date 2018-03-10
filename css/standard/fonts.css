@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: "SDF";
+    font-weight: normal;
+    src: url("../../fonts/IRANSans-Light-web.woff") format("woff"), url("../../fonts/IRANSans-Light-web.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SDF";
+    font-weight: bold;
+    src: url("../../fonts/IRANSans-Bold-web.woff") format("woff"), url("../../fonts/IRANSans-Bold-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BBCNassim";
+    src: url("../../fonts/BBCNassim.eot");
+    src: local("☺"), url("../fonts/BBCNassim.woff") format("woff"),
+        url("../../fonts/BBCNassim.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/IRANSans.eot?iefix") format("eot"), url("../../fonts/IRANSans.woff") format("woff"), url("../../fonts/IRANSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "yekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../fonts/yekan.eot#iefix") format("embedded-opentype"),
+        url("../../fonts/yekan.woff") format("woff"), url("../../fonts/yekan.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: "znassim";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../fonts/znassim-regular.eot#iefix")
+        format("embedded-opentype"), url("../fonts/znassim-regular.woff")
+        format("woff"), url("../../fonts/znassim-regular.ttf") format("truetype");
+}
+
+.tahoma {
+    font-family: Tahoma;
+}
+
+.bbc {
+    font-family: BBCNassim;
+}
+
+.yekan {
+    font-family: yekan;
+}
+
+.znassim {
+    font-family: znassim;
+}
